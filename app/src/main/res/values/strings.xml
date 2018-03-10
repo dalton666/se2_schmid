@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Palindrom Checker</string>
+    <string name="palindrom">Palindrom?</string>
+    <string name="label_f_r_user_information_ergebnis_fehler">Label für User Information (Ergebnis, Fehler)</string>
+    <string name="button">Button</string>
+    <string name="eingabe_string">Eingabe String:</string>
+    <string name="string_5_zeichen"><![CDATA[String >=5 Zeichen]]></string>
 </resources>
