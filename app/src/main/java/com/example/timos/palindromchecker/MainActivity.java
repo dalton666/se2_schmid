@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         else{
-            msLabel.setText("Bitte Text eingeben!");
+            msLabel.setText("Bitte Text eingeben");
         }
     }
     public static boolean isPalindrome(String str) {
