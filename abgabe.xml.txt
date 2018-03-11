@@ -1,0 +1,8 @@
+<person>
+<name>Timo Schmid</name>
+<matrikelnummer>1360291</matrikelnummer>
+<lastcommithash>03af702447b6134ccfb28ec7542b8cfc810810b6</lastcommithash>
+<githubusername>dalton666</githubusername>
+<repositoryname>se2_schmid</repositoryname>
+<repositoryurl>https://github.com/dalton666/se2_schmid</repositoryurl>
+</person>
