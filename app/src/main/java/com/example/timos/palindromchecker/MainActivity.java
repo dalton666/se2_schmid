@@ -18,16 +18,15 @@ public class MainActivity extends AppCompatActivity {
     public void checkPalindrom(View view) {
         System.out.println("Klick");
         EditText editText = findViewById(R.id.palindromInput);
-        // R.id ist eine Standard Android Funktion,
-        //mit Hilfe der man auf die UI Komponenten zugegriffen werden kann
+
         System.out.println(editText.getText());
         TextView msLabel = findViewById(R.id.msLabel);
 
         String inputString = editText.getText().toString();
         if(inputString != null && !inputString.trim().equals("")) {
-            /*Überprüft ob iputstring gleich null oder leer, trim löscht leerzeichen davor und danach weg */
+
             if (inputString.length() >= 5) {
-                if(isPalindrome(inputString.toLowerCase())){ /* to Lower Case Groß Kleinschreibung */
+                if(isPalindrome(inputString.toLowerCase())){
                     msLabel.setText("Is Palindrom");
                 }
                 else{
